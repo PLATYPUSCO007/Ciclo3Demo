@@ -13,15 +13,21 @@
 	
 <ul class="nav nav-pills nav-fill">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Cliente</a>
+    <a class="nav-link active" aria-current="page" href="#">Usuarios</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Producto</a>
+    <a class="nav-link" href="#">Clientes</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Proveedor</a>
+    <a class="nav-link" href="#">Proveedores</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
+    <a class="nav-link">Productos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link">Ventas</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled">Reportes</a>
   </li>
 </ul>
