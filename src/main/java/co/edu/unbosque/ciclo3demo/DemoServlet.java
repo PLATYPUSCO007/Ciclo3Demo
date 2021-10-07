@@ -38,6 +38,8 @@ public class DemoServlet extends HttpServlet {
 		  String listar = request.getParameter("Listar"); 
 		  String agregar = request.getParameter("Agregar");
 		  String ingresar = request.getParameter("Ingresar");
+		  String actualizar = request.getParameter("Actualizar");
+		  String borrar = request.getParameter("Borrar");
 		  
 		  if(agregar != null) { agregarUsuario(request, response); }
 		  

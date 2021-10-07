@@ -13,21 +13,21 @@
 	
 <ul class="nav nav-pills nav-fill">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Usuarios</a>
+    <a class="nav-link active" aria-current="page" href="usuarios.jsp">Usuarios</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Clientes</a>
+    <a class="nav-link" href="clientes.jsp">Clientes</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Proveedores</a>
+    <a class="nav-link" href="proveedores.jsp">Proveedores</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link">Productos</a>
+    <a class="nav-link" href="productos.jsp">Productos</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link">Ventas</a>
+    <a class="nav-link" href="#">Ventas</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled">Reportes</a>
+    <a class="nav-link disabled" href="#">Reportes</a>
   </li>
 </ul>

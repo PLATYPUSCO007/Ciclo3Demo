@@ -3,7 +3,7 @@
 <br />
 
 <div class="container" style="padding-left: 21%;">
-	<form method="post" action="./DemoServlet">
+	<form method="post" action="">
 		<div class="container-fluid">
 			<div class="row" id="map_section">
 				<div class="col-4 row-4">

@@ -1,70 +1,71 @@
 <%@include file="../Template/header.jsp"%>
 <br />
 <br />
-	
-	<div class="container" style="padding-left:21%;">
-		<form method="post" action="./DemoServlet">
-			<div class="container-fluid">
-				<div class="row" id="map_section">
-					<div class="col-4 row-4">
-						<div class="mb-3">
-							<label for="exampleInputText1" class="form-label"><ion-icon
-									name="id-card-outline"></ion-icon> Cedula</label> <input type="text"
-								name="cedula" class="form-control" id="exampleInputText1">
-						</div>
+
+<div class="container" style="padding-left: 21%;">
+	<form method="post" action="./DemoServlet">
+		<div class="container-fluid">
+			<div class="row" id="map_section">
+				<div class="col-4 row-4">
+					<div class="mb-3">
+						<label for="exampleInputText1" class="form-label"><ion-icon
+								name="id-card-outline"></ion-icon> Cedula</label> <input type="text"
+							name="cedula" class="form-control" id="exampleInputText1">
 					</div>
-					<div class="col-4">
-						<div class="mb-3">
-							<label for="exampleInputText1" class="form-label"><ion-icon
-									name="body-outline"></ion-icon> Nombre</label> <input type="text"
-								name="nombre" class="form-control" id="exampleInputText1">
-						</div>
+				</div>
+				<div class="col-4">
+					<div class="mb-3">
+						<label for="exampleInputText1" class="form-label"><ion-icon
+								name="body-outline"></ion-icon> Nombre</label> <input type="text"
+							name="nombre" class="form-control" id="exampleInputText1">
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="container-fluid">
-				<div class="row" id="map_section">
-					<div class="col-4">
-						<div class="mb-3">
-							<label for="exampleInputEmail1" class="form-label"><ion-icon
-									name="at-outline"></ion-icon> Correo Electronico</label> <input
-								type="email" name="email" class="form-control"
-								id="exampleInputEmail1" aria-describedby="emailHelp">
-						</div>
+		<div class="container-fluid">
+			<div class="row" id="map_section">
+				<div class="col-4">
+					<div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label"><ion-icon
+								name="at-outline"></ion-icon> Correo Electronico</label> <input
+							type="email" name="email" class="form-control"
+							id="exampleInputEmail1" aria-describedby="emailHelp">
 					</div>
-					<div class="col-4">
-						<div class="mb-3">
-							<label for="exampleInputText1" class="form-label"><ion-icon
-									name="finger-print-outline"></ion-icon> Usuario</label> <input
-								type="text" name="usuario" class="form-control"
-								id="exampleInputText1">
-						</div>
+				</div>
+				<div class="col-4">
+					<div class="mb-3">
+						<label for="exampleInputText1" class="form-label"><ion-icon
+								name="finger-print-outline"></ion-icon> Usuario</label> <input
+							type="text" name="usuario" class="form-control"
+							id="exampleInputText1">
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="container-fluid">
-				<div class="row" id="map_section">
-					<div class="col-4">
-						<div class="mb-3">
-							<label for="exampleInputPassword1" class="form-label"><ion-icon
-									name="keypad-outline"></ion-icon> Password</label> <input
-								type="password" name="password" class="form-control"
-								id="exampleInputPassword1">
-						</div>
+		<div class="container-fluid">
+			<div class="row" id="map_section">
+				<div class="col-4">
+					<div class="mb-3">
+						<label for="exampleInputPassword1" class="form-label"><ion-icon
+								name="keypad-outline"></ion-icon> Password</label> <input
+							type="password" name="password" class="form-control"
+							id="exampleInputPassword1">
 					</div>
-
-
 				</div>
-			</div>
 
-		</form>
+
+			</div>
+		</div>
+
+
 
 		<div class="container-fluid buttons">
 			<div class="row" id="map_section">
 				<div class="col-2">
-					<button type="submit" name="Listar" class="btn btn-dark">
+					<button type="submit" value="Agregar" name="Listar"
+						class="btn btn-dark">
 						<ion-icon name="document-text-outline"></ion-icon>
 						Consultar
 					</button>
@@ -92,8 +93,8 @@
 				</div>
 			</div>
 		</div>
-
-	</div>
+	</form>
+</div>
 
 <br />
 <br />

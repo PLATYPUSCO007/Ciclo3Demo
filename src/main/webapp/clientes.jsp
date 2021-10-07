@@ -3,7 +3,7 @@
 <br />
 	
 	<div class="container" style="padding-left:21%;">
-		<form method="post" action="./DemoServlet">
+		<form method="post" action="">
 			<div class="container-fluid">
 				<div class="row" id="map_section">
 					<div class="col-4 row-4">
@@ -64,7 +64,7 @@
 		<div class="container-fluid buttons">
 			<div class="row" id="map_section">
 				<div class="col-2">
-					<button type="submit" name="Listar" class="btn btn-dark">
+					<button type="submit" value="Listar" name="Listar" class="btn btn-dark">
 						<ion-icon name="document-text-outline"></ion-icon>
 						Consultar
 					</button>
