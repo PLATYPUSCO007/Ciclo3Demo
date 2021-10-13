@@ -3,21 +3,35 @@
 <br />
 
 <div class="container" style="padding-left: 21%;">
-	<form method="post" action="./DemoServlet">
+	<form method="post" id="usuarioForm" action="./DemoServlet">
 		<div class="container-fluid">
 			<div class="row" id="map_section">
 				<div class="col-4 row-4">
 					<div class="mb-3">
 						<label for="exampleInputText1" class="form-label"><ion-icon
 								name="id-card-outline"></ion-icon> Cedula</label> <input type="text"
-							name="cedula" class="form-control" id="exampleInputText1">
+							name="cedula" class="form-control" id="cedula">
+						<div class="error" id="errorMsg1">
+							<div class="alert alert-danger d-flex align-items-center"
+								role="alert">
+								<ion-icon name="warning-outline"></ion-icon>
+								<div>Inserte una cedula valida</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-4">
 					<div class="mb-3">
 						<label for="exampleInputText1" class="form-label"><ion-icon
 								name="body-outline"></ion-icon> Nombre</label> <input type="text"
-							name="nombre" class="form-control" id="exampleInputText1">
+							name="nombre" class="form-control" id="nombre">
+						<div class="error" id="errorMsg2">
+							<div class="alert alert-danger d-flex align-items-center"
+								role="alert">
+								<ion-icon name="warning-outline"></ion-icon>
+								<div>Inserte un nombre valido</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -29,16 +43,29 @@
 					<div class="mb-3">
 						<label for="exampleInputEmail1" class="form-label"><ion-icon
 								name="at-outline"></ion-icon> Correo Electronico</label> <input
-							type="email" name="email" class="form-control"
-							id="exampleInputEmail1" aria-describedby="emailHelp">
+							type="email" name="email" class="form-control" id="email"
+							aria-describedby="emailHelp">
+						<div class="error" id="errorMsg3">
+							<div class="alert alert-danger d-flex align-items-center"
+								role="alert">
+								<ion-icon name="warning-outline"></ion-icon>
+								<div>Inserte un correo valido</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-4">
 					<div class="mb-3">
 						<label for="exampleInputText1" class="form-label"><ion-icon
 								name="finger-print-outline"></ion-icon> Usuario</label> <input
-							type="text" name="usuario" class="form-control"
-							id="exampleInputText1">
+							type="text" name="usuario" class="form-control" id="usuario">
+						<div class="error" id="errorMsg4">
+							<div class="alert alert-danger d-flex align-items-center"
+								role="alert">
+								<ion-icon name="warning-outline"></ion-icon>
+								<div>Inserte un usuario valido</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -51,7 +78,14 @@
 						<label for="exampleInputPassword1" class="form-label"><ion-icon
 								name="keypad-outline"></ion-icon> Password</label> <input
 							type="password" name="password" class="form-control"
-							id="exampleInputPassword1">
+							id="password">
+						<div class="error" id="errorMsg5">
+							<div class="alert alert-danger d-flex align-items-center"
+								role="alert">
+								<ion-icon name="warning-outline"></ion-icon>
+								<div>Inserte una contraseña valida</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -64,29 +98,29 @@
 		<div class="container-fluid buttons">
 			<div class="row" id="map_section">
 				<div class="col-2">
-					<button type="submit" value="Agregar" name="Listar"
-						class="btn btn-dark">
+					<button type="submit" value="Listar" name="Listar"
+						class="btn btn-dark" id="listar">
 						<ion-icon name="document-text-outline"></ion-icon>
 						Consultar
 					</button>
 				</div>
 				<div class="col-2">
 					<button type="submit" value="Agregar" name="Agregar"
-						class="btn btn-dark">
+						class="btn btn-dark usuario" id="agregar">
 						<ion-icon name="checkmark-done-outline"></ion-icon>
 						Crear
 					</button>
 				</div>
 				<div class="col-2">
 					<button type="submit" value="Actualizar" name="Actualizar"
-						class="btn btn-dark">
+						class="btn btn-dark usuario" id="actualizar">
 						<ion-icon name="checkmark-done-outline"></ion-icon>
 						Actualizar
 					</button>
 				</div>
 				<div class="col-2">
 					<button type="submit" value="Borrar" name="Borrar"
-						class="btn btn-dark">
+						class="btn btn-dark usuario" id="borrar">
 						<ion-icon name="checkmark-done-outline"></ion-icon>
 						Borrar
 					</button>

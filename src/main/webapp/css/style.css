@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+	display: none;
+}
+
+
+.error{
+	display: none;
+	color: #F59794;
+}
