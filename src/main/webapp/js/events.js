@@ -19,7 +19,7 @@ $(document).ready(function() {
 				`<a class="nav-link" id="productos" href="productos.jsp">Productos</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
-				`<a class="nav-link" id="ventas" href="#">Ventas</a>` +
+				`<a class="nav-link" id="ventas" href="ventas.jsp">Ventas</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
 				`<a class="nav-link" id="reporte" href="#">Reportes</a>` +
@@ -42,7 +42,7 @@ $(document).ready(function() {
 				`<a class="nav-link" id="productos" href="productos.jsp">Productos</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
-				`<a class="nav-link" id="ventas" href="#">Ventas</a>` +
+				`<a class="nav-link" id="ventas" href="ventas.jsp">Ventas</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
 				`<a class="nav-link" id="reporte" href="#">Reportes</a>` +
@@ -64,7 +64,7 @@ $(document).ready(function() {
 				`<a class="nav-link" id="productos" href="productos.jsp">Productos</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
-				`<a class="nav-link" id="ventas" href="#">Ventas</a>` +
+				`<a class="nav-link" id="ventas" href="ventas.jsp">Ventas</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
 				`<a class="nav-link" id="reporte" href="#">Reportes</a>` +
@@ -85,7 +85,7 @@ $(document).ready(function() {
 				`<a class="nav-link active" id="productos" href="productos.jsp">Productos</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
-				`<a class="nav-link" id="ventas" href="#">Ventas</a>` +
+				`<a class="nav-link" id="ventas" href="ventas.jsp">Ventas</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
 				`<a class="nav-link" id="reporte" href="#">Reportes</a>` +
@@ -106,7 +106,7 @@ $(document).ready(function() {
 				`<a class="nav-link" id="productos" href="productos.jsp">Productos</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
-				`<a class="nav-link active" id="ventas" href="#">Ventas</a>` +
+				`<a class="nav-link active" id="ventas" href="ventas.jsp">Ventas</a>` +
 				`</li>` +
 				`<li class="nav-item">` +
 				`<a class="nav-link" id="reporte" href="#">Reportes</a>` +
