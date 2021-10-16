@@ -3,7 +3,7 @@
 <br />
 
 <div class="container" style="padding-left: 21%;">
-	<form method="post" action="">
+	<form method="post" action="./ClienteServlet">
 		<div class="container-fluid">
 			<div class="row" id="map_section">
 				<div class="col-4 row-4">
@@ -91,41 +91,41 @@
 
 			</div>
 		</div>
-
-	</form>
-
-	<div class="container-fluid buttons">
-		<div class="row" id="map_section">
-			<div class="col-2">
-				<button type="submit" value="Listar" name="Listar"
-					class="btn btn-dark cliente">
-					<ion-icon name="document-text-outline"></ion-icon>
-					Consultar
-				</button>
-			</div>
-			<div class="col-2">
-				<button type="submit" value="Agregar" name="Agregar"
-					class="btn btn-dark cliente" id="agregar">
-					<ion-icon name="checkmark-done-outline"></ion-icon>
-					Crear
-				</button>
-			</div>
-			<div class="col-2">
-				<button type="submit" value="Actualizar" name="Actualizar"
-					class="btn btn-dark cliente" id="actualizar">
-					<ion-icon name="checkmark-done-outline"></ion-icon>
-					Actualizar
-				</button>
-			</div>
-			<div class="col-2">
-				<button type="submit" value="Borrar" name="Borrar"
-					class="btn btn-dark cliente" id="borrar">
-					<ion-icon name="checkmark-done-outline"></ion-icon>
-					Borrar
-				</button>
+		<div class="container-fluid buttons">
+			<div class="row" id="map_section">
+				<div class="col-2">
+					<button type="submit" value="Listar" name="Listar"
+						class="btn btn-dark cliente">
+						<ion-icon name="document-text-outline"></ion-icon>
+						Consultar
+					</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" value="Agregar" name="Agregar"
+						class="btn btn-dark cliente" id="agregar">
+						<ion-icon name="checkmark-done-outline"></ion-icon>
+						Crear
+					</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" value="Actualizar" name="Actualizar"
+						class="btn btn-dark cliente" id="actualizar">
+						<ion-icon name="checkmark-done-outline"></ion-icon>
+						Actualizar
+					</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" value="Borrar" name="Borrar"
+						class="btn btn-dark cliente" id="borrar">
+						<ion-icon name="checkmark-done-outline"></ion-icon>
+						Borrar
+					</button>
+				</div>
 			</div>
 		</div>
-	</div>
+	</form>
+
+
 
 </div>
 

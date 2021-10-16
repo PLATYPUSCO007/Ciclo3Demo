@@ -162,21 +162,6 @@ public class DemoServlet extends HttpServlet {
 		}
 	}
 
-	/*
-	 * public void actualizarUsuarios(HttpServletRequest request,
-	 * HttpServletResponse response) { Usuarios usuario = new Usuarios();
-	 * usuario.setNombre_usuario(request.getParameter("nombre"));
-	 * usuario.setCedula_usuario(request.getParameter("cedula"));
-	 * usuario.setEmail_usuario(request.getParameter("email"));
-	 * usuario.setUsuario(request.getParameter("usuario"));
-	 * usuario.setPassword(request.getParameter("password")); int respuesta = 0; try
-	 * { respuesta = TestJSON.postJSON(usuario); 
-	 * PrintWriter writer = response.getWriter();
-	 *  if (respuesta == 200) {
-	 * writer.println("Registro Agregado!"); }else { writer.println("Error " +
-	 * respuesta); } writer.close(); } catch (Exception e) { // TODO: handle
-	 * exception e.printStackTrace(); } }
-	 */
 
 	public void borrarUsuarios(HttpServletRequest request, HttpServletResponse response) {
 		int respuesta = 0;

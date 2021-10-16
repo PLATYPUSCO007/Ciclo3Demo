@@ -1,41 +1,47 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
 <%@page import="java.util.Date"%>
 <%@page import="co.edu.unbosque.ciclo3demo.Usuarios"%>
 <%@page import="java.util.ArrayList"%>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Tienda Generica</title>
-</head>
-<body>
-	<p align="center">LISTADO DE USUARIOS</p>
-	<p align="center">La hora del servidor es <%=new Date() %></p>
-	<table>
+
+<%@include file="../Template/header.jsp"%>
+<br />
+<br />
+<p align="center">LISTADO DE USUARIOS</p>
+<p align="center">
+	La hora del servidor es
+	<%=new Date()%></p>
+<table id="results" class="stripe">
+	<thead>
 		<tr>
-			<td><label>Cedula</label></td>
-			<td><label>Nombre</label></td>
-			<td><label>Correo</label></td>
-			<td><label>Usuario</label></td>
-			<td><label>Password</label></td>
+			<th>Cedula</th>
+			<th>Nombre</th>
+			<th>Correo</th>
+			<th>Usuario</th>
+			<th>Password</th>
 		</tr>
-		
-	
-	<% 
-		ArrayList<Usuarios> lista = (ArrayList<Usuarios>) request.getAttribute("lista");
-		for(Usuarios usuario : lista){
+	</thead>
+	<tbody>
+	<%
+	ArrayList<Usuarios> lista = (ArrayList<Usuarios>) request.getAttribute("lista");
+	for (Usuarios usuario : lista) {
 	%>
 		<tr>
-			<td><%=usuario.getCedula_usuario() %></td>
-			<td><%=usuario.getNombre_usuario() %></td>
-			<td><%=usuario.getEmail_usuario() %></td>
-			<td><%=usuario.getUsuario() %></td>
-			<td><%=usuario.getPassword() %></td>	
+			<td><%=usuario.getCedula_usuario()%></td>
+			<td><%=usuario.getNombre_usuario()%></td>
+			<td><%=usuario.getEmail_usuario()%></td>
+			<td><%=usuario.getUsuario()%></td>
+			<td><%=usuario.getPassword()%></td>
 		</tr>
 	<%
-		}
+	}
 	%>
-	</table>
+	</tbody>
+</table>
+
+<script>
+	$(document).ready(function() {
+		console.log("cargando tablas");
+		$("#results").DataTable();
+	});
+</script>
 </body>
 </html>

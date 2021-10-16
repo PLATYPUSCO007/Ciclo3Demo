@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	
+	
 
 	let pagina = getUrl();
 	console.log(pagina);

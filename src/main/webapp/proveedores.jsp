@@ -3,14 +3,14 @@
 <br />
 
 <div class="container" style="padding-left: 21%;">
-	<form method="post" action="">
+	<form method="post" action="./ProveedoresServlet">
 		<div class="container-fluid">
 			<div class="row" id="map_section">
 				<div class="col-4 row-4">
 					<div class="mb-3">
 						<label for="exampleInputText1" class="form-label"><ion-icon
 								name="id-card-outline"></ion-icon> NIT</label> <input type="text"
-							name="cedula" class="form-control" id="nit">
+							name="nit" class="form-control" id="nit">
 						<div class="error" id="errorMsg1">
 							<div class="alert alert-danger d-flex align-items-center"
 								role="alert">
@@ -91,39 +91,39 @@
 			</div>
 		</div>
 
-	</form>
-
-	<div class="container-fluid buttons">
-		<div class="row" id="map_section">
-			<div class="col-2">
-				<button type="submit" name="Listar" class="btn btn-dark">
-					<ion-icon name="document-text-outline"></ion-icon>
-					Consultar
-				</button>
-			</div>
-			<div class="col-2">
-				<button type="submit" value="Agregar" name="Agregar"
-					class="btn btn-dark proveedor" id="agregar">
-					<ion-icon name="checkmark-done-outline"></ion-icon>
-					Crear
-				</button>
-			</div>
-			<div class="col-2">
-				<button type="submit" value="Actualizar" name="Actualizar"
-					class="btn btn-dark proveedor" id="actualizar">
-					<ion-icon name="checkmark-done-outline"></ion-icon>
-					Actualizar
-				</button>
-			</div>
-			<div class="col-2">
-				<button type="submit" value="Borrar" name="Borrar"
-					class="btn btn-dark proveedor" id="borrar">
-					<ion-icon name="checkmark-done-outline"></ion-icon>
-					Borrar
-				</button>
+		<div class="container-fluid buttons">
+			<div class="row" id="map_section">
+				<div class="col-2">
+					<button type="submit" name="" class="btn btn-dark">
+						<ion-icon name="document-text-outline"></ion-icon>
+						Consultar
+					</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" value="Agregar" name="Agregar"
+						class="btn btn-dark proveedor" id="agregar">
+						<ion-icon name="checkmark-done-outline"></ion-icon>
+						Crear
+					</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" value="Actualizar" name="Actualizar"
+						class="btn btn-dark proveedor" id="actualizar">
+						<ion-icon name="checkmark-done-outline"></ion-icon>
+						Actualizar
+					</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" value="Borrar" name="Borrar"
+						class="btn btn-dark proveedor" id="borrar">
+						<ion-icon name="checkmark-done-outline"></ion-icon>
+						Borrar
+					</button>
+				</div>
 			</div>
 		</div>
-	</div>
+
+	</form>
 
 </div>
 
