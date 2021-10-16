@@ -72,14 +72,14 @@ public class ProveedoresServlet extends HttpServlet {
 		String pagina = "/proveedores.jsp";
 		Proveedores proveedor;
 
-		String nitproveedor = request.getParameter("nit");
+		String nit = request.getParameter("nit");
 		String ciudad_proveedor = request.getParameter("ciudad");
 		String direccion_proveedor = request.getParameter("direccion");
 		String nombre_proveedor = request.getParameter("nombre");
 		String telefono_proveedor = request.getParameter("telefono");
 
 		proveedor = new Proveedores();
-		proveedor.setNit_proveedor(nitproveedor);
+		proveedor.setNit_proveedor(request.getParameter("nit"));
 		proveedor.setCiudad_proveedor(ciudad_proveedor);
 		proveedor.setDireccion_proveedor(direccion_proveedor);
 		proveedor.setNombre_proveedor(nombre_proveedor);
@@ -121,7 +121,7 @@ public class ProveedoresServlet extends HttpServlet {
 		Proveedores proveedor;
 		try {
 			proveedor = new Proveedores();
-			proveedor.setNit_proveedor(request.getParameter("cedula"));
+			proveedor.setNit_proveedor(request.getParameter("nit"));
 			respuesta = ProveedoresJSON.deleteJSON(proveedor);// MODIFICAR
 			PrintWriter writer = response.getWriter();
 			if (respuesta == 200) {

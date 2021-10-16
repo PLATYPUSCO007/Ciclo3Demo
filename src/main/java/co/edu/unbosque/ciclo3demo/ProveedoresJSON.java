@@ -29,7 +29,7 @@ public class ProveedoresJSON {
 			JSONObject innerObj = (JSONObject) i.next();
 			
 			Proveedores proveedor = new Proveedores();
-			proveedor.setNit_proveedor(innerObj.get("nitproveedor").toString());
+			proveedor.setNit_proveedor(innerObj.get("nit_proveedor").toString());
 			proveedor.setCiudad_proveedor(innerObj.get("ciudad_proveedor").toString());
 			proveedor.setDireccion_proveedor(innerObj.get("direccion_proveedor").toString());
 			proveedor.setNombre_proveedor(innerObj.get("nombre_proveedor").toString());
@@ -92,7 +92,7 @@ public class ProveedoresJSON {
 		http.setRequestProperty("Authorization", "Basic " + authStr);
 		http.setRequestProperty("Content-Type", "application/json");
 		String data = "{"
-		+ "\"nitproveedor\":\""+ proveedor.getNit_proveedor()
+		+ "\"nit_proveedor\":\""+ proveedor.getNit_proveedor()
 		+"\",\"ciudad_proveedor\":\""+proveedor.getCiudad_proveedor()
 		+"\",\"direccion_proveedor\":\""+proveedor.getDireccion_proveedor()
 		+"\",\"nombre_proveedor\": \""+proveedor.getNombre_proveedor()
